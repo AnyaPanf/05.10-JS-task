@@ -24,12 +24,10 @@
 
 // const getNum = (arr) => {
 //   let num = 11
-//  return newArr = arr.filter((el) => {
-//     return el > num
-//  }).reduce((acc,rec) => {
-//     return acc = [...acc,rec]
-//  },[])
+// return arr.reduce((acc,rec) => {
+// return rec > num ? [...acc,rec] : acc
+// },[])
 // }
 // console.log(getNum([1,2,3,4,10,20,30,99]));
-// Отличная работа, попробуйте сделать эту же задачу только методом reduce() без использования filter()
+
 
